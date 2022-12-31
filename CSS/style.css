@@ -133,7 +133,6 @@
     padding: 50px 30px;
   }
 
-
   /* Prices Section */
   .prices-container {
     container-type: inline-size;
@@ -152,7 +151,6 @@
   .arrow-img {
     margin-top: 60px;
   }
-
 
   /* Price Cards */
   @container (min-width:1183px) {
@@ -202,7 +200,7 @@
 
   @container (min-width:1100px) {
     .review-cards {
-      grid-auto-columns:50%
+      grid-auto-columns: 50%;
     }
   }
 
@@ -233,7 +231,7 @@
   }
 
   .form-heading span::after {
-    content: '\a';
+    content: "\a";
     display: block;
   }
 
