@@ -90,9 +90,13 @@
     margin-top: 100px;
   }
 
+  .card-heading h1 {
+    font-size: 2rem;
+  }
+
   @container (min-width: 1210px) {
     .card-two {
-      margin-top: -50px;
+      margin-top: -100px;
     }
   }
 
@@ -100,13 +104,13 @@
     font-size: min(4vw, 75px);
     line-height: min(5vw, 90px);
     font-weight: 600;
-    white-space: pre-line;
     margin-left: 60px;
     margin-bottom: 40px;
   }
 
   .features-lower-heading h1 span::after {
     content: "\a";
+    display: block;
   }
 
   /* Main Features (White Background) */
